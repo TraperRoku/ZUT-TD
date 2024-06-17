@@ -1,0 +1,21 @@
+0.031893363775953754 B3dB szerokosc pasma dla widmo zA
+2.7061817900421823 B6dB szerokosc pasma dla widmo zA
+2.7061817900421823 B12dB szerokosc pasma dla widmo zA
+
+2.678566623009209 B3dB szerokosc pasma dla widmo zP
+2.678566623009209 B6dB szerokosc pasma dla widmo zP
+2.678566623009209 B12dB szerokosc pasma dla widmo zP
+
+2.7061817900421823 B3dB szerokosc pasma dla widmo zF
+2.7061817900421823 B6dB szerokosc pasma dla widmo zF
+2.7061817900421823 B12dB szerokosc pasma dla widmo zF
+
+
+Wykresy ASK, PSK , FSK zostały ograniczone dla 10 bitów
+
+
+ASK, czyli zmiana amplitudy sygnału w zależności od przekazywanych danych, jest dość prosty w implementacji. 
+PSK, który modyfikuje fazę sygnału, jest bardziej niezawodny w warunkach zakłóceń, ale wymaga bardziej zaawansowanej realizacji. 
+Z kolei FSK, manipulujący częstotliwością sygnału, znalazł swoje zastosowanie tam, gdzie zakłócenia są szczególnie dokuczliwe.
+
+W praktyce, litery i znaki ASCII są przekształcane w ciąg bitów, a następnie te bity są modulowane wykorzystując wyżej wymienione techniki. Wyniki zamieściłem na wykresach.

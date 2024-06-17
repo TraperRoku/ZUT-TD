@@ -1,0 +1,76 @@
+
+double[] kA= {0.5, 5, 25};
+
+    double[] kA= {0.5, 5, 25};
+    double[] kP = {0.5, Math.PI / 2, 2 * Math.PI + 1};
+    double[] kF = {0.5, Math.PI / 2, 2 * Math.PI + 1};
+
+
+
+Dla kA = 0.5;
+Widmo zA:
+Dla B3dB 0.0
+Dla B6dB 0.18232155679395445
+Dla B12dB 0.18232155679395445
+
+Widmo zP:
+Dla B3dB 0.0
+Dla B6dB 0.0
+Dla B12dB 0.0
+
+Widmo zF:
+Dla B3dB 0.0
+Dla B6dB 0.18232155679395445
+Dla B12dB 0.5596157879354227
+
+
+
+
+Dla kA = 5;
+Widmo zA:
+Dla B3dB 0.18232155679395445
+Dla B6dB 0.18232155679395445
+Dla B12dB 0.18232155679395445
+
+Widmo zP:
+Dla B3dB 0.0
+Dla B6dB 0.0
+Dla B12dB 0.0
+
+Widmo zF:
+Dla B3dB 0.3677247801253172
+Dla B6dB 0.7621400520468968
+Dla B12dB 2.995732273553991
+
+
+Dla kA = 25;
+Widmo zA:
+Dla B3dB 0.18232155679395445
+Dla B6dB 0.18232155679395445
+Dla B12dB 0.18232155679395445
+
+Widmo zP:
+Dla B3dB 0.18232155679395445
+Dla B6dB 0.3677247801253172
+Dla B12dB 0.7621400520468968
+
+Widmo zF:
+Dla B3dB 3.1354942159291497
+Dla B6dB 3.4965075614664802
+Dla B12dB 3.912023005428146
+
+
+
+Modulacja amplitudy:
+Dla kA = 0.5: 
+W wyniku modulacji amplitudy w przypadku modulacji amplitudy, nie obserwujemy znaczących zmian w szerokości pasma (B3dB, B6dB, B12dB), co może wynikać z niewielkiego zakresu zmian amplitudy.
+Dla kA = 5: Szerokość pasma rośnie wraz ze wzrostem amplitudy modulującej, co jest zgodne z teorią AM. Jednakże, dla B12dB widzimy, że szerokość pasma pozostaje niezmieniona.
+Dla kA = 25: Szerokość pasma pozostaje na podobnym poziomie jak dla kA = 5.
+
+Modulacja fazy:
+Dla każdej wartości kP, nie obserwujemy znaczących zmian w szerokości pasma dla sygnałów zmodulowanych modulacji fazy.
+
+Modulacja częstotliwości:
+Dla kF = 0.5: Szerokość pasma rośnie wraz ze wzrostem współczynnika modulacji kF. Jest to typowe dla modulacji częstotliwości, gdzie większe skoki częstotliwości prowadzą do szerszego pasma.
+Dla kF = Math.PI / 2: Wartości szerokości pasma znacznie rosną.
+Dla kF = 2 * Math.PI + 1: Szerokość pasma utrzymuje się na wysokim poziomie, co może sugerować, że dalszy wzrost współczynnika modulacji nie wpływa już znacząco na szerokość pasma.

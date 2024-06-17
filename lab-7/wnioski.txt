@@ -1,0 +1,112 @@
+Problem przy dodaniu szumu alfa występuje głownie dla ask. Psk oraz fsk nie ulega znaczemu pogorszeniu, jednak przy wystarczającej mocy szumu również mogą wystąpić błedy.
+
+Tłumienie ma za zadanie zmniejszyć wartości, zależy to od wartości parametru beta.
+W moim zadaniu tłumienie nie przyniosło skutków. Jednak myślę, że gdy wartość tłumienie była by wieksza najbardziej ucierpiał by również ask.
+
+Najłatwiej zakłócić było sygnał ASK. Ponieważ w ASK wartość zakodowana jest w amplitudzie i nawet najmniejsze zakłócenie sygnału może zmienić interpretację sygnału z 1 na 0 lub odwrotnie. PSK i FSK ciężej było zakłócić, gdyż zakłócenia musiały być na tyle silne, aby zmienić właściwości sygnału w bardziej znaczący sposób.
+
+
+
+Dla zakłócenia sygnału szumem, a potem tłumienie.
+
+Wartości alfa i beta:
+dla alfy podane obok ber, a beta
+beta = 10 * alfa;
+czyli dla przykładu.
+alfa = 0.1, to beta przyjmuje wartosci = 1.0 
+
+Bit Error Rate for ASK: 0.0 dla 0.0
+Bit Error Rate for PSK: 0.0 dla 0.0
+Bit Error Rate for FSK: 0.0 dla 0.0
+
+Bit Error Rate for ASK: 0.10714285714285714 dla 0.1
+Bit Error Rate for PSK: 0.0 dla 0.1
+Bit Error Rate for FSK: 0.0 dla 0.1
+
+Bit Error Rate for ASK: 0.21428571428571427 dla 0.2
+Bit Error Rate for PSK: 0.0 dla 0.2
+Bit Error Rate for FSK: 0.0 dla 0.2
+
+Bit Error Rate for ASK: 0.14285714285714285 dla 0.30000000000000004
+Bit Error Rate for PSK: 0.0 dla 0.30000000000000004
+Bit Error Rate for FSK: 0.0 dla 0.30000000000000004
+
+Bit Error Rate for ASK: 0.17857142857142858 dla 0.4
+Bit Error Rate for PSK: 0.0 dla 0.4
+Bit Error Rate for FSK: 0.0 dla 0.4
+
+Bit Error Rate for ASK: 0.2857142857142857 dla 0.5
+Bit Error Rate for PSK: 0.0 dla 0.5
+Bit Error Rate for FSK: 0.0 dla 0.5
+
+Bit Error Rate for ASK: 0.14285714285714285 dla 0.6
+Bit Error Rate for PSK: 0.0 dla 0.6
+Bit Error Rate for FSK: 0.0 dla 0.6
+
+Bit Error Rate for ASK: 0.21428571428571427 dla 0.7
+Bit Error Rate for PSK: 0.0 dla 0.7
+Bit Error Rate for FSK: 0.0 dla 0.7
+
+Bit Error Rate for ASK: 0.32142857142857145 dla 0.7999999999999999
+Bit Error Rate for PSK: 0.0 dla 0.7999999999999999
+Bit Error Rate for FSK: 0.0 dla 0.7999999999999999
+
+Bit Error Rate for ASK: 0.35714285714285715 dla 0.8999999999999999
+Bit Error Rate for PSK: 0.0 dla 0.8999999999999999
+Bit Error Rate for FSK: 0.07142857142857142 dla 0.8999999999999999
+
+Bit Error Rate for ASK: 0.32142857142857145 dla 0.9999999999999999
+Bit Error Rate for PSK: 0.0 dla 0.9999999999999999
+Bit Error Rate for FSK: 0.0 dla 0.9999999999999999
+
+
+teraz wpierw tłumienie, a potem zakłócanie
+
+Bit Error Rate for ASK: 0.0 dla 0.0
+Bit Error Rate for PSK: 0.0 dla 0.0
+Bit Error Rate for FSK: 0.0 dla 0.0
+
+Bit Error Rate for ASK: 0.21428571428571427 dla 0.1
+Bit Error Rate for PSK: 0.0 dla 0.1
+Bit Error Rate for FSK: 0.0 dla 0.1
+
+Bit Error Rate for ASK: 0.32142857142857145 dla 0.2
+Bit Error Rate for PSK: 0.0 dla 0.2
+Bit Error Rate for FSK: 0.0 dla 0.2
+
+Bit Error Rate for ASK: 0.21428571428571427 dla 0.30000000000000004
+Bit Error Rate for PSK: 0.0 dla 0.30000000000000004
+Bit Error Rate for FSK: 0.0 dla 0.30000000000000004
+
+Bit Error Rate for ASK: 0.14285714285714285 dla 0.4
+Bit Error Rate for PSK: 0.0 dla 0.4
+Bit Error Rate for FSK: 0.0 dla 0.4
+
+Bit Error Rate for ASK: 0.17857142857142858 dla 0.5
+Bit Error Rate for PSK: 0.0 dla 0.5
+Bit Error Rate for FSK: 0.0 dla 0.5
+
+Bit Error Rate for ASK: 0.14285714285714285 dla 0.6
+Bit Error Rate for PSK: 0.0 dla 0.6
+Bit Error Rate for FSK: 0.0 dla 0.6
+
+Bit Error Rate for ASK: 0.2857142857142857 dla 0.7
+Bit Error Rate for PSK: 0.0 dla 0.7
+Bit Error Rate for FSK: 0.0 dla 0.7
+
+Bit Error Rate for ASK: 0.21428571428571427 dla 0.7999999999999999
+Bit Error Rate for PSK: 0.0 dla 0.7999999999999999
+Bit Error Rate for FSK: 0.10714285714285714 dla 0.7999999999999999
+
+Bit Error Rate for ASK: 0.32142857142857145 dla 0.8999999999999999
+Bit Error Rate for PSK: 0.0 dla 0.8999999999999999
+Bit Error Rate for FSK: 0.07142857142857142 dla 0.8999999999999999
+
+Bit Error Rate for ASK: 0.32142857142857145 dla 0.9999999999999999
+Bit Error Rate for PSK: 0.0 dla 0.9999999999999999
+Bit Error Rate for FSK: 0.03571428571428571 dla 0.9999999999999999
+
+
+
+Ber przyjmuje wieksze wartości najpierw dla tłumienia, a potem dla zakłócenia niż w porównaniu do 
+zakłocenia -> tłumienia.

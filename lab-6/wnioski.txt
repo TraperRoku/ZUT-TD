@@ -1,0 +1,6 @@
+Kod hamminga to kod nadmiarowy, który służy do tego że nawet jak wiadomość przyjdzie z błędem to będziemy mogli obejść tą stratę i odszyfrować prawidłową informację". Kod nadmiarowy odnośi sie do tego, że jak przesyłamy 4 bity do zakodowania jak występuje to w kodowaniu hammigna(7,4) to otrzymujemy 7 bitów zakodowanych.
+Kodowanie Hamminga (7,4) polega na wyznaczaniu bitów parzystości na podstawie bitów informacyjnych za pomocą operacji dodawania modulo 2. Dekodowanie polega na wyznaczeniu syndromu, który wskazuje pozycje błędnego bitu. Przeprowadziłem testy i kod działa zarówno w przypadku jak jest jeden błąd lub go nie ma.
+Kodowanie Hamminga (15,11) zostało zrealizowane przy użyciu operacji macierzowych. Macierz generująca G została wyznaczona na podstawie macierzy jednostkowej i macierzy określającej bity parzystości.
+Dekodowanie polega na wyznaczeniu syndromu błędu przy użyciu macierzy kontroli parzystości H. Wartość syndromu wskazuje na pozycję błędnego bitu, który jest następnie korygowany.
+
+

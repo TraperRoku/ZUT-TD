@@ -1,0 +1,9 @@
+W laboratoriach nr 5 , przyswoiłem trzy techniki kluczowania sygnałów: ASK, PSK i FSK.
+
+ASK, czyli zmiana amplitudy sygnału w zależności od przekazywanych danych, jest dość prosty w implementacji. 
+PSK, który modyfikuje fazę sygnału, jest bardziej niezawodny w warunkach zakłóceń, ale wymaga bardziej zaawansowanej realizacji. 
+Z kolei FSK, manipulujący częstotliwością sygnału, znalazł swoje zastosowanie tam, gdzie zakłócenia są szczególnie dokuczliwe.
+
+W praktyce, litery i znaki ASCII są przekształcane w ciąg bitów, a następnie te bity są modulowane wykorzystując wyżej wymienione techniki. Wyniki zamieściłem na wykresach.
+
+Poza tym, przeprowadzane są także kroki demodulacji, polegające na odzyskaniu pierwotnego sygnału z zmodulowanego strumienia bitów. Ten etap pozwolił mi zrozumieć na czym polega ten proces.
